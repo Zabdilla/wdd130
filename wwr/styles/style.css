@@ -7,6 +7,7 @@ body {
     padding: 0;
     max-width: 1600px;
     background-color:#d4a373; 
+    text-align: center;
 }
 #content {
     margin: auto;
