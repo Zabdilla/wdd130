@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Roboto:wght@300&display=swap');
+
+nav {
+    background-color: #80b918;
+    line-height: 3em;
+    
+    text-align: center;
+    font-size: 1.2em;
+
+
+}
+
+nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+nav a {
+
+    /* margin-top: 30px; */
+    min-width: 120px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: center;
+    border: 1px;
+    padding: 1px;
+    padding: 20px;
+    
+}
+
+nav a:link,
+nav a:visited {
+    color: #43291f;
+}
+
+nav a:hover {
+    color: #43291f;
+    background-color: #aacc00;
+    ;
+}
+
+.logo {
+    width: 95px;
+    height: 95px;
+    border-radius: 55%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+
+}
+
+#logo_link {
+    margin-top: 15px;
+    padding-bottom: 5px;
+    justify-self: center;
+    align-self: center;
+    /* margin: 0%; */
+    margin-bottom: -1px;
+    
+    
+}
+
+body {
+    background-color: #f4f0bb;
+    color: #43291f;
+    
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: xx-large;
+    color: black;
+}
+h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    margin-top: 0%;
+    margin-bottom: 30px;
+
+
+}
+
+
+
+#home-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    font-size: x-large;
+    align-items: center;
+    margin-left: 130px;
+    margin-right: 130px;
+    font-family:'Roboto', sans-serif;
+    
+   
+}
+
+#Woman {
+    grid-column: 1;
+    grid-row: 1;
+    border: 2px solid white;
+    /* padding-right: 20px; */
+   
+}
+
+#veggies {
+    grid-column: 2;
+    grid-row: 2;
+    margin-right: 300px;
+    margin-top: 40px;
+    margin-bottom: -150px;
+    border: 2px solid white;
+}
+
+#explanation {
+    text-align: left;
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 30px;
+
+
+}
+
+#clients {
+    text-align: center;
+    grid-column: 1 / 3;
+    grid-row: 3;
+
+}
+
+footer {
+    background-color: #80b918;
+    padding: 25px 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #43291f;
+ 
+}
+
+footer a {
+    text-decoration: none;
+    color: #43291f;
+}
+
+footer a:hover {
+    color: #43291f;
+    background-color: #aacc00;
+    ;
+}
+
+.social {
+    text-decoration: none;
+
+}
