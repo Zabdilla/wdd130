@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Roboto:wght@300&display=swap');
+
+nav {
+    background-color: #80b918;
+    line-height: 3em;
+
+    text-align: center;
+    font-size: 1.2em;
+
+
+}
+
+nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+nav a {
+
+    /* margin-top: 30px; */
+    min-width: 120px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: center;
+    border: 1px;
+    padding: 1px;
+    padding: 20px;
+
+}
+
+nav a:link,
+nav a:visited {
+    color: #43291f;
+}
+
+nav a:hover {
+    color: #43291f;
+    background-color: #aacc00;
+    ;
+}
+
+
+.logo {
+    width: 95px;
+    height: 95px;
+    border-radius: 55%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#logo_link {
+    justify-self: center;
+    align-self: center;
+    margin-bottom: -23px;
+    pointer-events: none;
+    padding: 0%;
+}
+
+
+body {
+    background-color: #f4f0bb;
+    color: #43291f;
+}
+
+
+#order-here {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    font-size: x-large;
+    align-items: center;
+    margin-left: 110px;
+    margin-right: 110px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr ;
+    font-size: x-large;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 190px;
+    margin-top: 30px;
+
+}
+
+/* ROW 1 HEADINGS */
+#content #heading1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#items #heading2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#prices #heading3 {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#comments #heading4 {
+    grid-column: 4;
+    grid-row: 1;
+
+}
+
+/* ROW 2 */
+
+#quantity #cars1 {
+    grid-column: 1;
+    grid-row: 2;
+
+}
+
+#items #item1 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#prices #p1 {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#comments #comments1 {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+/* ROW 3 */
+#quantity #cars2 {
+    grid-column: 1;
+    grid-row: 3;
+
+}
+
+#items #item2 {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#prices #p2 {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+#comments #comments2 {
+    grid-column: 4;
+    grid-row: 3;
+}
+
+
+
+#headings {
+    grid-row: 1;
+    grid-column: 1 / 4;
+
+}
+
+#Mexican-Flag {
+    height: 240px;
+    margin-right: 50px;
+    border: 2px solid white;
+
+
+}
+
+#table-food {
+    height: 240px;
+    margin-left: 5px;
+    border: 2px solid white;
+}
+
+#services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr;
+    padding-top: 100px;
+    margin-right: 100px;
+    margin-left: 190px;
+}
+
+.material-symbols-outlined {
+    margin-left: 18px;
+
+}
+
+.tip,
+.notification {
+    grid-column: 3;
+
+
+}
+
+footer {
+    background-color: #80b918;
+    padding: 25px 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #43291f;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #43291f;
+}
+
+footer a:hover {
+    color: #43291f;
+    background-color: #aacc00;
+    ;
+}
+
+.social {
+    text-decoration: none;
+
+}
+
+.notification {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    padding: 15px 26px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.notification:hover {
+    background: red;
+}
+
+.notification .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+}
