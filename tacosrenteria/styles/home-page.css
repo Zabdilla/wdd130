@@ -54,7 +54,7 @@ nav a:hover {
     justify-self: center;
     align-self: center;
     margin-bottom: -23px;
-    pointer-events: none;
+    /* pointer-events: none; */
     padding: 0%;
 }
 
