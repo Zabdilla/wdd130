@@ -1,0 +1,32 @@
+/* TABLE CSS */
+table {
+    text-align: center;
+    margin: 100%;
+    
+}
+
+thead {
+    font-weight: bold;
+    font-size: 1.8em;
+
+}
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+tbody tr:nth-child(1) {
+    background-color: gray;
+}
+
+tbody {
+    background-color: white;
+}
+/* END OF TABLE CSS */
+

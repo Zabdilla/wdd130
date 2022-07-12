@@ -58,6 +58,9 @@ nav a:hover {
     padding: 0%;
 }
 
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
 
 body {
     background-color: #f4f0bb;
@@ -71,90 +74,58 @@ body {
     grid-template-rows: 1fr;
     font-size: x-large;
     align-items: center;
-    margin-left: 110px;
+    margin-left: 90px;
     margin-right: 110px;
     font-family: 'Roboto', sans-serif;
 
 }
 
 #content {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr ;
     font-size: x-large;
-    align-items: center;
+    align-items: center; */
     margin-right: 100px;
     margin-left: 190px;
     margin-top: 30px;
 
 }
 
-/* ROW 1 HEADINGS */
-#content #heading1 {
-    grid-column: 1;
-    grid-row: 1;
+/* TABLE CSS */
+table {
+    text-align: center;
+    /* margin: 100%; */
+    margin-left: 170px;
+    font-family: 'Roboto', sans-serif;
 }
 
-#items #heading2 {
-    grid-column: 2;
-    grid-row: 1;
-}
-
-#prices #heading3 {
-    grid-column: 3;
-    grid-row: 1;
-}
-
-#comments #heading4 {
-    grid-column: 4;
-    grid-row: 1;
+thead {
+    font-weight: bold;
+    font-size: 1.8em;
 
 }
 
-/* ROW 2 */
-
-#quantity #cars1 {
-    grid-column: 1;
-    grid-row: 2;
-
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
-#items #item1 {
-    grid-column: 2;
-    grid-row: 2;
+td, th {
+    font-size: 1.2em;
+    padding: 30px;
 }
 
-#prices #p1 {
-    grid-column: 3;
-    grid-row: 2;
+tbody tr:nth-child(1) {
+    background-color: lightgray;
 }
 
-#comments #comments1 {
-    grid-column: 4;
-    grid-row: 2;
+tbody {
+    background-color: white;
 }
+/* END OF TABLE CSS */
 
-/* ROW 3 */
-#quantity #cars2 {
-    grid-column: 1;
-    grid-row: 3;
 
-}
-
-#items #item2 {
-    grid-column: 2;
-    grid-row: 3;
-}
-
-#prices #p2 {
-    grid-column: 3;
-    grid-row: 3;
-}
-
-#comments #comments2 {
-    grid-column: 4;
-    grid-row: 3;
-}
 
 
 
@@ -179,6 +150,7 @@ body {
 }
 
 #services {
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-row: 1fr;
