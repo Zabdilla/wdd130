@@ -3,7 +3,7 @@
 nav {
     background-color: #80b918;
     line-height: 3em;
-    width: 100%;
+
     text-align: center;
     font-size: 1.2em;
 
@@ -42,6 +42,7 @@ nav a:hover {
 }
 
 
+
 .logo {
     width: 95px;
     height: 95px;
@@ -62,119 +63,47 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
-main {
-    width: 100%;
-}
-
 body {
     background-color: #f4f0bb;
     color: #43291f;
-    width: 100%;
-}
-
-
-#order-here {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    font-size: x-large;
-    align-items: center;
-    margin-left: 90px;
-    margin-right: 110px;
-    font-family: 'Roboto', sans-serif;
-
-}
-
-#content {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr ;
-    font-size: x-large;
-    align-items: center; */
-    margin-right: 100px;
-    margin-left: 190px;
-    margin-top: 30px;
-
-}
-
-/* TABLE CSS */
-table {
-    text-align: center;
-    /* margin: 100%; */
-    margin-left: 170px;
-    font-family: 'Roboto', sans-serif;
-}
-
-thead {
-    font-weight: bold;
-    font-size: 1.8em;
-
-}
-
-table, td, th {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-
-td, th {
-    font-size: 1.2em;
-    padding: 30px;
-}
-
-tbody tr:nth-child(1) {
-    background-color: lightgray;
-}
-
-tbody {
-    background-color: white;
-}
-/* END OF TABLE CSS */
-
-
-
-
-
-#headings {
-    grid-row: 1;
-    grid-column: 1 / 4;
-
-}
-
-#Mexican-Flag {
-    height: 240px;
-    margin-right: 50px;
-    border: 2px solid white;
-
-
-}
-
-#table-food {
-    height: 240px;
-    margin-left: 5px;
-    border: 2px solid white;
-}
-
-#services {
     
+}
+
+main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* grid-row: 1fr; */
-    padding-top: 100px;
-    margin-right: 100px;
-    margin-left: 190px;
-}
-
-.material-symbols-outlined {
-    margin-left: 18px;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    margin-left: 100px;
+    font-family: 'Roboto', sans-serif;
 
 }
-
-.tip,
-.notification {
-    grid-column: 3;
-
+  h1 {
+    margin-left: 600px;
+    margin-bottom: 125px;
+  }
+  
+#pozole {
+    grid-column: 1;
+    grid-template-rows: 2;
 
 }
+
+#pozole, #tacos, #elote, #burrito {
+    height: 250px;
+    width: 350px;
+}
+
+#pozole, #tacos, #elote {
+    margin-bottom: 100px;
+    
+}
+
+.specs {
+    margin-left: 70px;
+    margin-right: 30px;
+}
+
+
 
 footer {
     background-color: #80b918;
@@ -184,7 +113,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     color: #43291f;
-    width: 100%;
+
 }
 
 footer a {
