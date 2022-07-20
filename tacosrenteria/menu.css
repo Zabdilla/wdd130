@@ -61,6 +61,7 @@ nav a:hover {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
+   
 }
 
 body {
@@ -79,7 +80,8 @@ main {
 }
   h1 {
     margin-left: 600px;
-    margin-bottom: 125px;
+    margin-bottom: 70px;
+    margin-top: 40px;
   }
   
 #pozole {

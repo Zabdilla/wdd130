@@ -69,12 +69,12 @@ body {
 
 h1 {
     text-align: center;
-    margin-bottom: 1px;
+    margin-bottom: 3px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: xx-large;
     color: black;
-    padding-left: 10px;
+    margin-top: 50px;
 }
 
 h2 {
@@ -82,7 +82,7 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: medium;
     margin-top: 0%;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 
 
 }
@@ -93,50 +93,50 @@ h2 {
 
 
 #home-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; */
     font-size: x-large;
     align-items: center;
     margin-left: 130px;
     margin-right: 130px;
     font-family: 'Roboto', sans-serif;
+}
 
+#image {
+    width: 500px;
+    margin: 0 auto;
+    justify-items: left;
+    padding-left: 285px;
 
 }
 
-#Woman {
-    grid-column: 1;
-    grid-row: 1;
-    border: 2px solid white;
-    /* padding-right: 20px; */
-
+form {
+  align-items: center;
+  width: 350px;
+ padding-right: 0;
+ padding-left: 200px;
+  display: block;
+  margin: 0 auto;
+  grid-row: 1/2;
+  border: solid 2px black;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-#veggies {
-    grid-column: 2;
-    grid-row: 2;
-    margin-right: 300px;
-    margin-top: 40px;
-    margin-bottom: -150px;
-    border: 2px solid white;
+#cooking {
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
-#explanation {
-    text-align: left;
-    grid-column: 2;
-    grid-row: 1;
-    margin-left: 30px;
-
-
+input {
+    height: 20px;
 }
 
-#clients {
-    text-align: center;
-    grid-column: 1 / 3;
-    grid-row: 3;
 
-}
 
 footer {
     background-color: #80b918;
